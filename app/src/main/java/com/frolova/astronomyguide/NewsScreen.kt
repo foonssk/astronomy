@@ -60,7 +60,10 @@ fun FourQuartersScreen(
     }
 
     val quarterColors = listOf(
-        Cyan, Violet, Orange, Pink40
+        Color(0xFF9b41f0),
+        Color(0xFFba095c),
+        Color(0xFFf69403),
+        Color(0xFF90ecc3)
     )
 
     Column(modifier = modifier.fillMaxSize()){
