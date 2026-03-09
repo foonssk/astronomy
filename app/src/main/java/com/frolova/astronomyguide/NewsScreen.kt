@@ -32,17 +32,6 @@ import com.frolova.astronomyguide.ui.theme.Orange
 import com.frolova.astronomyguide.ui.theme.Pink40
 import com.frolova.astronomyguide.ui.theme.Violet
 
-//@Composable
-//fun MainScreen(viewModel: NewsViewModel, modifier: Modifier = Modifier){
-//    val newsList by viewModel.currentNews.collectAsStateWithLifecycle()
-//
-//    FourQuartersScreen(
-//        newsList = newsList,
-//        getDisplayLikes = { news -> viewModel.getDisplayLikes(news) },
-//        onToggleLike = { news -> viewModel.toggleLike(news) },
-//        modifier = modifier
-//    )
-//}
 
 @Composable
 fun FourQuartersScreen(
